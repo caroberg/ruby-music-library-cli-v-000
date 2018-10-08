@@ -32,7 +32,7 @@ class Song
   def self.create(name)
     song = self.new(name)
     song.save
-    song
+    #song
     #self.new(name) tap do |song|
     #song.save
     #end
